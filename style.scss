@@ -1,23 +1,23 @@
 @import "compass";
 $primaryColour: #27AE60;
- 
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 @import "compass/css3/filter";
 @import "compass/css3/transition";
- 
+
 body {
   font-family: "Open Sans";
 	background: $primaryColour;
   height: 100vh;
 }
- 
+
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
   outline: none;
 }
- 
+
 .topslot {
   background: url("http://i.imgur.com/UkKDCJy.jpg") darken($primaryColour,5%) center;
   background-size: cover;
@@ -43,20 +43,20 @@ button:focus {
     font-size: 1.09rem;
   }
 }
- 
+
 form {
   padding: 1rem;
   background: #fff;
   border-radius: 0.25rem;
   box-shadow: 0rem 0.3rem 1rem 0.1rem rgba(0,0,0,0.35);
 }
- 
+
 input {
   margin-bottom: 1rem;
   display: block;
   @include box-sizing(border-box);
 }
- 
+
 input:not([type=submit]){
   text-align: center;
   padding: 0.25rem 0.5rem;
@@ -69,10 +69,10 @@ input:not([type=submit]){
   font-weight: 300;
   width: 100%;
 }
- 
+
 .signup-fields {
   display: none; }
- 
+
 input[type=submit] {
   border: 0rem;
   width: 100%;
@@ -91,11 +91,11 @@ input[type=submit] {
     background-color: darken($primaryColour,5%);
   }
 }
- 
+
 #signup.on {
   color: #fff;
 }
- 
+
 .main {
   margin: -2.5rem auto 0rem;
   width: 16rem;
@@ -114,3 +114,4 @@ input[type=submit] {
     }
   }
 }
+
