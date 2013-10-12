@@ -1,3 +1,4 @@
+<!DOCTYPE JS>
 $('#signup').click(function(){
   if($(this).hasClass("on"))
   {
